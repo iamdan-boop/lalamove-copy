@@ -1,0 +1,37 @@
+name: lalamove_copy
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  bloc: ^7.0.0
+  carousel_slider: ^4.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+  font_awesome_flutter: ^9.1.0
+  pin_code_fields: ^7.3.0
+  pinput: ^1.2.0
+  timeline_list: ^0.0.3
+  timelines:
+  
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  sizer: ^2.0.13
+
+dev_dependencies:
+  bloc_test: ^8.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.0
+  very_good_analysis: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
